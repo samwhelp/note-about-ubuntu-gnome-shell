@@ -7,7 +7,7 @@ has_children: false
 # 連結
 
 
-## Ubuntu Budgie
+## Ubuntu Gnome Shell
 
 | Link |
 | ---- |
