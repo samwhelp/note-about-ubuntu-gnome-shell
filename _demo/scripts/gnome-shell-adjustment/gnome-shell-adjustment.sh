@@ -557,6 +557,8 @@ mod_config_portal () {
 
 	mod_gnome_shell_config
 
+	mod_tool_config
+
 
 
 
