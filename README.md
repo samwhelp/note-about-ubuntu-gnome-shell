@@ -29,7 +29,9 @@
 
 | 微調腳本 |
 | -------- |
-| [Ubuntu Gnome Shell 24.04](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment/tree/main/prototype/main) |
+| [Ubuntu Gnome Shell Config](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment/tree/main/prototype/main) |
+| [Tool Config](https://github.com/samwhelp/ubuntu-adjustment/tree/main/prototype/main/tool-config/part) |
+| [簡易微調](https://github.com/samwhelp/note-about-ubuntu-gnome-shell/tree/gh-pages/_demo/scripts/gnome-shell-adjustment) |
 
 
 
