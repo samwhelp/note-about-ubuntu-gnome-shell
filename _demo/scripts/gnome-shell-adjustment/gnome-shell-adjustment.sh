@@ -167,6 +167,8 @@ mod_gnome_shell_config_for_keybind_main () {
 }
 
 
+
+
 mod_gnome_shell_config_for_keybind_custom () {
 
 
@@ -218,6 +220,12 @@ mod_gnome_shell_config_for_keybind_custom () {
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager/name "'File_Manager'"
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager/command "'nautilus'"
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager/binding "'<Shift><Alt>f'"
+
+
+	## ### File Manager 1
+	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager-1/name "'File_Manager-1'"
+	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager-1/command "'thunar'"
+	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager-1/binding "'<Shift><Alt>g'"
 
 
 	## ### Text Editor

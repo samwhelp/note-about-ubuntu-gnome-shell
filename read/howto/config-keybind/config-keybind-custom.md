@@ -81,6 +81,12 @@ dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/fil
 dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager/binding "'<Shift><Alt>f'"
 
 
+## ### File Manager 1
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager-1/name "'File_Manager-1'"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager-1/command "'thunar'"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager-1/binding "'<Shift><Alt>g'"
+
+
 ## ### Text Editor
 dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/text-editor/name "'Text_Editor'"
 dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/text-editor/command "'gnome-text-editor'"
@@ -120,6 +126,53 @@ gsettings get org.gnome.settings-daemon.plugins.media-keys custom-keybindings
 顯示
 
 ```
+
+[control-center]
+binding='<Shift><Alt>s'
+command='gnome-control-center'
+name='Control_Center'
+
+[file-manager-1]
+binding='<Shift><Alt>g'
+command='thunar'
+name='File_Manager-1'
+
+[file-manager]
+binding='<Shift><Alt>f'
+command='nautilus'
+name='File_Manager'
+
+[system-logout]
+binding='<Shift><Alt>x'
+command='gnome-session-quit --logout'
+name='System_Logout'
+
+[system-shutdown]
+binding='<Shift><Alt>z'
+command='gnome-session-quit --power-off'
+name='System_Shutdown'
+
+[terminal-1]
+binding='<Shift><Alt>a'
+command='gnome-terminal'
+name='Terminal-1'
+
+[terminal]
+binding='<Alt>Return'
+command='gnome-terminal'
+name='Terminal'
+
+[text-editor]
+binding='<Shift><Alt>e'
+command='gnome-text-editor'
+name='Text_Editor'
+
+[web-browser]
+binding='<Shift><Alt>b'
+command='firefox --new-tab about:blank'
+name='Web_Browser'
+
+['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-logout/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-shutdown/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/control-center/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/text-editor/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/web-browser/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager-1/']
 
 ```
 
