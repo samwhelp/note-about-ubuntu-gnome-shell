@@ -196,12 +196,12 @@ gsettings list-recursively | grep 'org.gnome.shell.keybindings'
 
 ## 設定方式
 
-> 接著我們在『[設定「主要」的「按鍵綁定」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-keybind/config-keybind-main.html)』這篇來說明如何修改設定。
+> 接著我們在『[設定「主要」的「按鍵綁定」](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/read/howto/config-keybind/config-keybind-main.html)』這篇來說明如何修改設定。
 
 
 
 
 ## 相關議題
 
-* [設定「主要」的「按鍵綁定」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-keybind/config-keybind-main.html)
-* [設定「自訂」的「按鍵綁定」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-keybind/config-keybind-custom.html)
+* [設定「主要」的「按鍵綁定」](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/read/howto/config-keybind/config-keybind-main.html)
+* [設定「自訂」的「按鍵綁定」](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/read/howto/config-keybind/config-keybind-custom.html)
