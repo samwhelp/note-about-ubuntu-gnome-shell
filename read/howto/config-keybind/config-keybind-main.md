@@ -224,12 +224,12 @@ gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Supe
 
 | 方位        | 按鍵           | 功能                    |
 | ----------- | -------------- | ----------------------- |
-| 上 (Up)     | `Win + grave`  | `Overview / Show Apps`       |
+| 上 (Up)     | `Win + grave`  | `Overview / Show Apps`  |
 | 下 (Down)   | `Win + Tab`    | `Overview / Scale`      |
 | 左 (Left)   | `Alt + a`      | `Workspace / Previous`  |
 | 右 (Right)  | `Alt + s`      | `Workspace / Next`      |
-| 左 (Left)   | `Win + a`      | `Window / Previous`  |
-| 右 (Right)  | `Win + s`      | `Window / Next`      |
+| 左 (Left)   | `Win + a`      | `Window / Previous`     |
+| 右 (Right)  | `Win + s`      | `Window / Next`         |
 
 > 關於「grave」指是「`」，在「Tab鍵」上方的那個「鍵盤按鍵」。
 
