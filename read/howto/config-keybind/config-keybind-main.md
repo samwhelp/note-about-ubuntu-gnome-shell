@@ -199,7 +199,7 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Alt
 
 ## Overview / Show Apps
 
-> 執行下面指令，綁定「`Win + grave`」來切換到「應用程式列表/所有工作空間預覽」。
+> 執行下面指令，綁定「`Win + grave`」來切換到「應用程式列表/所有工作空間概覽」。
 
 ``` sh
 gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>grave', '<Super>Up']"
@@ -215,7 +215,7 @@ gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>grav
 
 ## Overview / Scale
 
-> 執行下面指令，綁定「`Win + Tab`」來切換到「目前工作空間的所有視窗預覽/所有工作空間預覽」。
+> 執行下面指令，綁定「`Win + Tab`」來切換到「目前工作空間的所有視窗概覽/所有工作空間概覽」。
 
 ``` sh
 gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Super>Down']"
