@@ -111,5 +111,8 @@
 
 | Link | GitHub |
 | ---- | ------ |
+| [Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-gnome-shell) |
+| [Fedora Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-fedora-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-fedora-gnome-shell) |
+| [Manjaro Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-manjaro-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-manjaro-gnome-shell) |
 | [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
 | [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
