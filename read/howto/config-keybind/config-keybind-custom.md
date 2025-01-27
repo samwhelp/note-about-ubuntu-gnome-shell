@@ -181,7 +181,7 @@ name='Web_Browser'
 
 ## 範例腳本
 
-* [範例腳本](https://github.com/samwhelp/note-about-ubuntu-gnome-shell/tree/gh-pages/_demo/scripts/cinnamon-keybind)
+* [範例腳本](https://github.com/samwhelp/note-about-ubuntu-gnome-shell/tree/gh-pages/_demo/scripts/gnome-shell-keybind)
 
 
 
