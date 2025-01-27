@@ -233,9 +233,9 @@ gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Supe
 
 > 關於「grave」指是「`」，在「Tab鍵」上方的那個「鍵盤按鍵」。
 
-> `Super` for `Window`
+> `Win` for `Window`
 
-> `Control` for `Workspace`
+> `Alt` for `Workspace`
 
 
 
