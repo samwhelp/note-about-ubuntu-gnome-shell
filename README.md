@@ -6,6 +6,7 @@
 | ---- | ------ |
 | [Ubuntu Gnome Shell Adjustment](https://samwhelp.github.io/ubuntu-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment) |
 | [Ubuntu Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-gnome-shell) |
+| [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
 
 
 
@@ -101,10 +102,11 @@
 | Link | GitHub |
 | ---- | ------ |
 | [Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-gnome-shell) |
-| [Fedora Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-fedora-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-fedora-gnome-shell) |
+| [AnduinOS Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-anduinos-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-anduinos-gnome-shell) |
+| [Debian Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-debian-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-debian-gnome-shell) |
+| [Garuda Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-garuda-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-garuda-gnome-shell) |
 | [Manjaro Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-manjaro-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-manjaro-gnome-shell) |
-| [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
-| [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
+| [Fedora Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-fedora-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-fedora-gnome-shell) |
 
 
 
