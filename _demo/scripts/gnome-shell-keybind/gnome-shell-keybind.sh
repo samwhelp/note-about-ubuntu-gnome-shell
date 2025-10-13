@@ -367,6 +367,15 @@ mod_gnome_shell_extension_config_for_dash_to_dock () {
 	return 0
 }
 
+mod_gnome_shell_config_for_hot_corner () {
+
+
+	gsettings set org.gnome.desktop.interface enable-hot-corners true
+
+
+	return 0
+}
+
 
 
 
@@ -380,6 +389,7 @@ mod_gnome_shell_config () {
 
 
 	mod_gnome_shell_extension_config_for_dash_to_dock
+
 	mod_gnome_shell_config_for_favorite_apps
 
 
@@ -402,6 +412,8 @@ mod_gnome_shell_config () {
 
 
 	mod_gnome_shell_config_for_system_config_quick
+
+	mod_gnome_shell_config_for_hot_corner
 
 
 
