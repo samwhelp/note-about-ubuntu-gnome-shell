@@ -352,6 +352,135 @@ mod_gnome_shell_config_for_system_config_quick () {
 
 
 ##
+## ## Tool / Ptyxis / Config
+##
+
+mod_tool_ptyxis_config () {
+
+	##
+	## > gsettings list-recursively | grep Ptyxis
+	##
+
+
+	mod_tool_ptyxis_config_for_preference
+
+	mod_tool_ptyxis_config_for_keybind
+
+	mod_tool_ptyxis_config_for_profile
+
+
+	return 0
+}
+
+mod_tool_ptyxis_config_for_preference () {
+
+
+	local path="org.gnome.Ptyxis"
+
+
+
+
+	#gsettings set "${path}" profile-uuids "['default']"
+	#gsettings set "${path}" default-profile-uuid "'default'"
+
+
+	#gsettings set "${path}" profile-uuids "['03333b0b7335d7cd299530f5679b32ae']"
+	#gsettings set "${path}" default-profile-uuid "'03333b0b7335d7cd299530f5679b32ae'"
+
+
+
+
+	gsettings set "${path}" use-system-font false
+
+	gsettings set "${path}" font-name "'Monospace 12'"
+
+	gsettings set "${path}" interface-style "'dark'"
+
+	gsettings set "${path}" restore-session false
+
+
+
+	##
+	## ## dump
+	#
+	## gsettings list-recursively org.gnome.Ptyxis
+	##
+
+
+	return 0
+}
+
+mod_tool_ptyxis_config_for_keybind () {
+
+
+	local path="org.gnome.Ptyxis.Shortcuts"
+
+
+	gsettings set "${path}" zoom-one '<Control>0'
+
+	gsettings set "${path}" zoom-out '<Control>minus'
+
+	gsettings set "${path}" zoom-in '<Control>equal'
+
+
+
+
+	##
+	## ## dump
+	#
+	## gsettings list-recursively org.gnome.Ptyxis.Shortcuts
+	##
+
+
+	return 0
+}
+
+mod_tool_ptyxis_config_for_profile () {
+
+
+	#local profile="default"
+	#local profile="03333b0b7335d7cd299530f5679b32ae"
+	local profile=$(gsettings get org.gnome.Ptyxis default-profile-uuid)
+
+	profile=${profile:1:-1} # remove leading and trailing single quotes
+
+
+
+	#local path="org.gnome.Ptyxis.Profile:/org/gnome/Ptyxis/Profiles/default/"
+	#local path="org.gnome.Ptyxis.Profile:/org/gnome/Ptyxis/Profiles/03333b0b7335d7cd299530f5679b32ae/"
+	local path="org.gnome.Ptyxis.Profile:/org/gnome/Ptyxis/Profiles/${profile}/"
+
+
+
+
+	gsettings set "${path}" label "'Default'"
+
+	gsettings set "${path}" opacity 0.9
+
+	#gsettings set "${path}" palette "'tango'"
+	#gsettings set "${path}" palette "'gnome'"
+	#gsettings set "${path}" palette "'dark'"
+	#gsettings set "${path}" palette "'solarized'"
+	gsettings set "${path}" palette "'Vs Code'"
+
+
+
+
+	##
+	## ## dump
+	##
+	## gsettings list-recursively org.gnome.Ptyxis.Profile:/org/gnome/Ptyxis/Profiles/default/
+	## gsettings list-recursively org.gnome.Ptyxis.Profile:/org/gnome/Ptyxis/Profiles/03333b0b7335d7cd299530f5679b32ae/
+	##
+
+
+	return 0
+}
+
+
+
+
+##
 ## ## Tool / Gnome Terminal / Config
 ##
 
@@ -553,7 +682,9 @@ mod_gnome_shell_config () {
 
 mod_tool_config () {
 
-	mod_tool_gnome_terminal_config
+	mod_tool_ptyxis_config
+
+	#mod_tool_gnome_terminal_config
 
 	mod_tool_nautilus_config
 
