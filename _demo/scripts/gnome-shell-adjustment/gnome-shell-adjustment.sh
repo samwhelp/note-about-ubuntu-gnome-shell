@@ -348,6 +348,15 @@ mod_gnome_shell_config_for_system_config_quick () {
 	return 0
 }
 
+mod_gnome_shell_config_for_favorite_apps () {
+
+
+	gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'firefox_firefox.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Ptyxis.desktop', 'org.gnome.Settings.desktop']"
+
+
+	return 0
+}
+
 mod_gnome_shell_extension_config_for_dash_to_dock () {
 
 
@@ -671,6 +680,7 @@ mod_gnome_shell_config () {
 
 
 	mod_gnome_shell_extension_config_for_dash_to_dock
+	mod_gnome_shell_config_for_favorite_apps
 
 
 
