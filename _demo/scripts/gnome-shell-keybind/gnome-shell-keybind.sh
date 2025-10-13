@@ -352,6 +352,8 @@ mod_gnome_shell_extension_config_for_dash_to_dock () {
 	gsettings set org.gnome.shell.extensions.dash-to-dock shortcut "['<Super><Control>q']"
 
 
+	gsettings set org.gnome.shell.extensions.dash-to-dock dock-position "'BOTTOM'"
+
 
 	return 0
 }
