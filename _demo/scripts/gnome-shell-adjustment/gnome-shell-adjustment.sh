@@ -360,10 +360,58 @@ mod_gnome_shell_config_for_favorite_apps () {
 mod_gnome_shell_extension_config_for_dash_to_dock () {
 
 
-	gsettings set org.gnome.shell.extensions.dash-to-dock shortcut "['<Super><Control>q']"
+	#gsettings set org.gnome.shell.extensions.dash-to-dock shortcut "['<Super><Control>q']"
+
+	#gsettings set org.gnome.shell.extensions.dash-to-dock dock-position "'BOTTOM'"
 
 
-	gsettings set org.gnome.shell.extensions.dash-to-dock dock-position "'BOTTOM'"
+
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock apply-custom-theme false
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock autohide false
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock autohide-in-fullscreen true
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock background-color '#ffffff'
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock background-opacity 0.8
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'cycle-windows'
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 36
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed true
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock dock-position 'BOTTOM'
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock isolate-locations true
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock middle-click-action 'launch'
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock shift-click-action 'previews'
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock shift-middle-click-action 'quit'
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock shortcut "['']"
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock shortcut-text ''
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock show-show-apps-button true
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock show-trash false
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock show-windows-preview false
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode 'DYNAMIC'
+
+
 
 
 	return 0
