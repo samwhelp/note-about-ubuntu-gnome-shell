@@ -346,6 +346,16 @@ mod_gnome_shell_config_for_system_config_quick () {
 	return 0
 }
 
+mod_gnome_shell_extension_config_for_dash_to_dock () {
+
+
+	gsettings set org.gnome.shell.extensions.dash-to-dock shortcut "['<Super><Control>q']"
+
+
+
+	return 0
+}
+
 
 
 
@@ -354,6 +364,13 @@ mod_gnome_shell_config_for_system_config_quick () {
 ##
 
 mod_gnome_shell_config () {
+
+
+
+
+	mod_gnome_shell_extension_config_for_dash_to_dock
+
+
 
 
 	mod_gnome_shell_config_for_empty_switch_windows
