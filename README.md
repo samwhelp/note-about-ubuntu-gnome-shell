@@ -29,7 +29,7 @@
 
 | 微調腳本 |
 | ------- |
-| [Ubuntu Gnome Shell Config](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment/tree/main/prototype/main) |
+| [Ubuntu Gnome Shell Config](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment/tree/main/prototype/main/gnome-shell-config) |
 | [Tool Config](https://github.com/samwhelp/ubuntu-adjustment/tree/main/prototype/main/tool-config/part) |
 | [簡易微調](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment/tree/main/demo/scripts/main/gnome-shell-adjustment) |
 
