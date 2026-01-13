@@ -53,7 +53,7 @@ sudo apt-get install gnome-shell-extension-manager gnome-shell-extension-prefs g
 
 > 安裝指令
 
-執行下面指令，安裝「[gnome-tweaks](https://packages.ubuntu.com/questing/gnome-tweaks)」
+執行下面指令，安裝「[gnome-tweaks](https://packages.ubuntu.com/questing/gnome-tweaks)」。
 
 ``` sh
 sudo apt-get install gnome-tweaks
