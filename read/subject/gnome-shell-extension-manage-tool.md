@@ -29,7 +29,7 @@ has_children: true
 | gnome-extensions-app | [gnome-shell-extension-prefs](https://packages.ubuntu.com/questing/gnome-shell-extension-prefs) | GUI |
 |   | [gnome-browser-connector](https://packages.ubuntu.com/questing/gnome-browser-connector) | Web Page |
 | extension-manager | [gnome-shell-extension-manager](https://packages.ubuntu.com/questing/gnome-shell-extension-manager) | GUI |
-| gext (gnome-extensions-cli)    | No package currently available ([Source](https://github.com/essembeh/gnome-extensions-cli)) | CLI |
+| gnome-extensions-cli (gext)    | No package currently available ([Source](https://github.com/essembeh/gnome-extensions-cli)) | CLI |
 
 
 > 安裝指令
