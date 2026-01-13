@@ -34,7 +34,7 @@ has_children: true
 
 > 安裝指令
 
-執行下面指令，安裝
+執行下面指令，安裝相關「Package」。
 
 ``` sh
 sudo apt-get install gnome-shell-extension-manager gnome-shell-extension-prefs gnome-browser-connector
