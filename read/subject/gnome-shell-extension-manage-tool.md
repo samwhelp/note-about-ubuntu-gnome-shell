@@ -13,6 +13,7 @@ has_children: true
 ## 主題
 
 * [統整列表](#統整列表)
+* [額外工具](#額外工具)
 
 
 
@@ -29,3 +30,31 @@ has_children: true
 |   | [gnome-browser-connector](https://packages.ubuntu.com/questing/gnome-browser-connector) | Web Page |
 | extension-manager | [gnome-shell-extension-manager](https://packages.ubuntu.com/questing/gnome-shell-extension-manager) | GUI |
 | gext (gnome-extensions-cli)    | No package currently available ([Source](https://github.com/essembeh/gnome-extensions-cli)) | CLI |
+
+
+> 安裝指令
+
+執行下面指令，安裝
+
+``` sh
+sudo apt-get install gnome-shell-extension-manager gnome-shell-extension-prefs gnome-browser-connector
+```
+
+
+
+
+## 額外工具
+
+> Gnome Tweaks
+
+| Command | Package | Interface |
+| ------- | ------- | --------- |
+| gnome-tweaks | [gnome-tweaks](https://packages.ubuntu.com/questing/gnome-tweaks) | GUI |
+
+> 安裝指令
+
+執行下面指令，安裝「[gnome-tweaks](https://packages.ubuntu.com/questing/gnome-tweaks)」
+
+``` sh
+sudo apt-get install gnome-tweaks
+```
