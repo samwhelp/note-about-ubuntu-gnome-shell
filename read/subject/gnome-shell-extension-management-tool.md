@@ -20,7 +20,7 @@ has_children: true
 
 ## 統整列表
 
-> Gnome Shell Extension Manage Tool
+> Gnome Shell Extension Management Tool
 
 | Command | Package | Interface |
 | ------- | ------- | --------- |
