@@ -14,6 +14,7 @@ has_children: true
 
 * [擴充套件管理工具](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/read/subject/gnome-shell-extension-management-tool.html)
 * [統整列表](#統整列表)
+* [相關連結](#相關連結)
 
 
 
@@ -27,3 +28,30 @@ has_children: true
 | [blur-my-shell@aunetx](https://extensions.gnome.org/extension/3193/blur-my-shell/) | [Source](https://github.com/aunetx/blur-my-shell) |
 | [arcmenu@arcmenu.com](https://extensions.gnome.org/extension/3628/arcmenu/) | [Source](https://gitlab.com/arcmenu/ArcMenu) |
 | [dash-to-panel@jderose9.github.com](https://extensions.gnome.org/extension/1160/dash-to-panel/) | [Source](https://github.com/home-sweet-gnome/dash-to-panel) |
+
+
+
+
+## 相關連結
+
+| 相關連結 |
+| ------- |
+| [Gnome Shell Extensions](https://extensions.gnome.org/) |
+
+
+| GitLab |
+| ------ |
+| [gnome-shell](https://gitlab.gnome.org/GNOME/gnome-shell) |
+| [gnome-shell-extensions](https://gitlab.gnome.org/GNOME/gnome-shell-extensions) |
+
+
+| GitHub |
+| ------ |
+| [gnome-shell](https://github.com/GNOME/gnome-shell) |
+| [gnome-shell-extensions](https://github.com/GNOME/gnome-shell-extensions) |
+
+
+| GJS |
+| --- |
+| [https://gjs.guide/](https://gjs.guide/) |
+| [https://gjs-docs.gnome.org/](https://gjs-docs.gnome.org/) |
