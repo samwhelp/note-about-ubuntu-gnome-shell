@@ -36,6 +36,14 @@
 
 
 
+| [桌面佈局](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment/tree/main/project/gnome-shell-layout) |
+| ------- |
+| [gnome-shell-layout-wincity](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment/tree/main/project/gnome-shell-layout/gnome-shell-layout-advance-full/profile/gnome-shell-layout-wincity) |
+| [gnome-shell-layout-maccity](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment/tree/main/project/gnome-shell-layout/gnome-shell-layout-advance-full/profile/gnome-shell-layout-maccity) |
+
+
+
+
 ## 概覽
 
 | [概覽](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/read/guide.html) |
