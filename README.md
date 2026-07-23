@@ -18,6 +18,7 @@
 * [概覽](#概覽)
 * [如何](#如何)
 * [按鍵綁定](#按鍵綁定)
+* [擴充套件](#擴充套件)
 * [輸入法](#輸入法)
 * [佈景主題](#佈景主題)
 * [工具](#工具)
@@ -102,6 +103,16 @@
 | --- |
 | [鍵盤按鍵綁定](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/read/config/keybind.html) |
 | [滑鼠按鍵綁定](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/read/config/mousebind.html) |
+
+
+
+
+## 擴充套件
+
+| 擴充套件 |
+| ------- |
+| [擴充套件管理工具](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/read/subject/gnome-shell-extension-management-tool.html) |
+| [擴充套件](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/read/subject/gnome-shell-extension.html) |
 
 
 
