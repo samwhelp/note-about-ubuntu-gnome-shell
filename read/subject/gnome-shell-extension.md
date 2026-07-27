@@ -51,13 +51,8 @@ has_children: true
 
 
 
-| Gnome Shell Extension | Source |
-| --------------------- | ------ |
-| [appindicatorsupport@rgcjonas.gmail.com](https://extensions.gnome.org/extension/615/appindicator-support/) | [Source](https://github.com/ubuntu/gnome-shell-extension-appindicator) |
-| [ubuntu-appindicators@ubuntu.com](https://extensions.gnome.org/extension/1301/ubuntu-appindicators/) | [Source](https://github.com/ubuntu/gnome-shell-extension-appindicator) |
 
-
-
+## Ubuntu Packages
 
 | Ubuntu Packages |
 | --------------- |
@@ -82,6 +77,27 @@ show
 Depends: gnome-session-bin (<< 51~), gnome-session-bin (>= 50.1-0ubuntu0.1), gnome-session-common (= 50.1-0ubuntu0.1), gnome-settings-daemon (>= 3.37.0), gnome-shell (>= 50~), gnome-shell-ubuntu-extensions, xdg-desktop-portal-gnome, xwayland, yaru-theme-gnome-shell (>= 20.04.3~), user-session-migration
 Depends: gnome-session-bin (<< 51~), gnome-session-bin (>= 50.0-0ubuntu3), gnome-session-common (= 50.0-0ubuntu3), gnome-settings-daemon (>= 3.37.0), gnome-shell (>= 50~), xdg-desktop-portal-gnome, xwayland, yaru-theme-gnome-shell (>= 20.04.3~), user-session-migration
 ```
+
+
+
+
+
+> [gnome-shell-extension-ubuntu-dock](https://packages.ubuntu.com/resolute/gnome-shell-extension-ubuntu-dock)
+
+| Gnome Shell Extension | Source |
+| --------------------- | ------ |
+| [dash-to-dock@micxgx.gmail.com](https://extensions.gnome.org/extension/307/dash-to-dock/) | [Source](https://github.com/micheleg/dash-to-dock) |
+| [ubuntu-dock@ubuntu.com](https://extensions.gnome.org/extension/1300/ubuntu-dock/) | [Source](https://github.com/micheleg/dash-to-dock) |
+
+
+
+
+> [gnome-shell-extension-appindicator](https://packages.ubuntu.com/resolute/gnome-shell-extension-appindicator)
+
+| Gnome Shell Extension | Source |
+| --------------------- | ------ |
+| [appindicatorsupport@rgcjonas.gmail.com](https://extensions.gnome.org/extension/615/appindicator-support/) | [Source](https://github.com/ubuntu/gnome-shell-extension-appindicator) |
+| [ubuntu-appindicators@ubuntu.com](https://extensions.gnome.org/extension/1301/ubuntu-appindicators/) | [Source](https://github.com/ubuntu/gnome-shell-extension-appindicator) |
 
 
 
