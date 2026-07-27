@@ -51,6 +51,40 @@ has_children: true
 
 
 
+| Gnome Shell Extension | Source |
+| --------------------- | ------ |
+| [appindicatorsupport@rgcjonas.gmail.com](https://extensions.gnome.org/extension/615/appindicator-support/) | [Source](https://github.com/ubuntu/gnome-shell-extension-appindicator) |
+| [ubuntu-appindicators@ubuntu.com](https://extensions.gnome.org/extension/1301/ubuntu-appindicators/) | [Source](https://github.com/ubuntu/gnome-shell-extension-appindicator) |
+
+
+
+
+| Ubuntu Packages |
+| --------------- |
+| [gnome-shell-ubuntu-extensions](https://packages.ubuntu.com/questing/gnome-shell-ubuntu-extensions) |
+| [gnome-shell-extension-appindicator](https://packages.ubuntu.com/resolute/gnome-shell-extension-appindicator) |
+| [gnome-shell-extension-desktop-icons-ng](https://packages.ubuntu.com/resolute/gnome-shell-extension-desktop-icons-ng) |
+| [gnome-shell-extension-ubuntu-dock](https://packages.ubuntu.com/resolute/gnome-shell-extension-ubuntu-dock) |
+| [gnome-shell-extension-ubuntu-tiling-assistant](https://packages.ubuntu.com/resolute/gnome-shell-extension-ubuntu-tiling-assistant) |
+
+
+
+
+run to view [ubuntu-session](https://packages.ubuntu.com/resolute/ubuntu-session) Depends:
+
+``` sh
+apt-cache show ubuntu-session | grep '^Depends:'
+```
+
+show
+
+```
+Depends: gnome-session-bin (<< 51~), gnome-session-bin (>= 50.1-0ubuntu0.1), gnome-session-common (= 50.1-0ubuntu0.1), gnome-settings-daemon (>= 3.37.0), gnome-shell (>= 50~), gnome-shell-ubuntu-extensions, xdg-desktop-portal-gnome, xwayland, yaru-theme-gnome-shell (>= 20.04.3~), user-session-migration
+Depends: gnome-session-bin (<< 51~), gnome-session-bin (>= 50.0-0ubuntu3), gnome-session-common (= 50.0-0ubuntu3), gnome-settings-daemon (>= 3.37.0), gnome-shell (>= 50~), xdg-desktop-portal-gnome, xwayland, yaru-theme-gnome-shell (>= 20.04.3~), user-session-migration
+```
+
+
+
 
 ## 相關專案
 
